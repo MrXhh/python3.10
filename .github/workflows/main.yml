@@ -7,7 +7,7 @@ on:
 
 jobs:
   main:
-    uses: deadsnakes/runbooks/.github/workflows/update.yml@main
+    uses: deadsnakes/runbooks/.github/workflows/update.yml@master
     with:
       dists-json: '["xenial", "bionic", "focal"]'
       version: ${{ inputs.version }}
